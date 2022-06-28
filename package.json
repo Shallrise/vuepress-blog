@@ -1,0 +1,36 @@
+{
+    "name": "vuepress-blog",
+    "version": "1.0.0",
+    "description": "blog",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs",
+        "deploy": "npm run docs:build && PUSH.bat"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shallrise/vuepress-blog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vuepress-plugin-side-anchor": "^1.0.6",
+        "vuepress-theme-reco": "^1.6.11"
+    },
+    "dependencies": {
+        "@vssue/api-github-v4": "^1.4.7",
+        "@vssue/vuepress-plugin-vssue": "^1.4.8",
+        "moment": "^2.29.3",
+        "vuepress-plugin-cursor-effects": "^1.1.2"
+    },
+    "bugs": {
+        "url": "https://github.com/Shallrise/vuepress-blog/issues"
+    },
+    "homepage": "https://github.com/Shallrise/vuepress-blog#readme",
+    "directories": {
+        "doc": "docs"
+    }
+}
