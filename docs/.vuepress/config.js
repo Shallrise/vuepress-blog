@@ -1,6 +1,6 @@
 const moment = require('moment');
 module.exports = {
-    base: "/",
+    base: "/vuepress-blog/",
     // theme: 'reco',
     dest: '../../dist',
     title: 'Shallrise',
